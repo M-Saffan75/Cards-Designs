@@ -1,0 +1,193 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body  {
+   
+    background: linear-gradient(#037ade, #03e5b7);
+    height: 96.7vh;
+
+    overflow: hidden;
+    overflow-y: scroll;
+    width:100%;
+}
+
+.container
+{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:20px ;
+    
+}
+
+.card-1 
+{
+    flex-basis: 28%;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:rgba(245, 222, 179, 0.143) ;
+    background: rgb(221, 216, 216);
+    
+}
+
+
+.card-2 
+{
+    flex-basis: 28%;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:rgba(245, 222, 179, 0.143) ;
+    background: rgb(221, 216, 216);
+    
+}
+
+
+.card-3 
+{
+    flex-basis: 28%;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:rgba(245, 222, 179, 0.143) ;
+    background: rgb(221, 216, 216);
+    
+}
+
+.img-area-1
+{
+    background-image: url('https://source.unsplash.com/600x400/?computer');
+    background-position: center;
+    background-size: cover;
+    height:200px ;
+    width: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.img-area-4
+{
+    background-image: url('https://source.unsplash.com/600x400/?food');
+    background-position: center;
+    background-size: cover;
+    height:200px ;
+    width: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.img-area-3
+{
+    background-image: url('https://source.unsplash.com/600x400/?car,automobile');
+    background-position: center;
+    background-size: cover;
+    height:200px ;
+    width: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.small-btn-1 {
+    color: white;
+    background:linear-gradient(#009ffd,#2a2a72);
+    font-weight: 300;
+    border-radius: 20px;
+    width:80px;
+    padding: 2px;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px;
+    margin-top: 15px;
+}
+
+.small-btn-2 {
+    color: white;
+    background:linear-gradient(#e8bc85,#e8c99b);
+    font-weight: 300;
+    border-radius: 20px;
+    width:50px;
+    padding: 2px;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px;
+    margin-top: 15px;
+}
+
+.small-btn-3 {
+    color: white;
+    background:linear-gradient(#a71d31,#3f0d12);
+    font-weight: 300;
+    border-radius: 20px;
+    width:60px;
+    padding: 2px;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px;
+    margin-top: 15px;
+}
+
+.header {
+    font-size: 21px;
+    padding:0px 10px 10px  10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.paragraph {
+    
+    padding:0px 15px 15px 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    
+} 
+
+.img-area-2 {
+    margin:  10px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+.info
+{
+    position: relative;
+    top: 10px;
+    width: 90px;
+    font-size: 14px;
+}
+
+
+.time {
+    color: rgba(0, 0, 0, 0.293);
+}
+
+@media screen and (max-width:800px)
+{
+    .container 
+    {
+        flex-direction: column;
+    }
+}
